@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav>
+            <img src="logo.png" alt="Logo" class="logo">
+            <div>
+                <button id="signInBtn">Sign In</button>
+                <button id="signUpBtn">Sign Up</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+    </header>
+
+    <!-- Auth Forms -->
+    <div class="auth-form sign-in-form">
+        <h2>Sign In</h2>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button>Sign In</button>
+    </div>
+
+    <div class="auth-form sign-up-form">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button>Sign Up</button>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="tv.png" alt="TV">
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="img-col">
+                <img src="mobile.jpg" alt="Mobile">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="checkbox" id="question1" class="input">
+                <label for="question1">What is Netflix?</label>
+                <div class="content">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" id="question2" class="input">
+                <label for="question2">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from $8.99 to $17.99 a month. No extra costs, no contracts.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <h2>Questions? Contact us.</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+        </div>
+        <div class="copyright-txt">© 2024 Netflix Clone</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
